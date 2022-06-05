@@ -1,0 +1,51 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.pink {
+  background: pink;
+}
+
+button-duplicator {
+  font-family: fantasy;
+  color: red;
+  font-size: 20px;
+}
+
+button {
+  font-family: fantasy;
+}
+
+custom-alert {
+  --bg: rebeccapurple;
+  --text: white;
+}
+
+/* https://slideswithsuperpowers.netlify.app/60?clicks=1 */
+custom-alert-v2 {
+  --bg: rebeccapurple;
+  --text: white;
+}
+
+custom-alert-v2[icon="warn"]::part(button) {
+  appearance: none;
+  background: orange;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+custom-alert-v2[icon="note"]::part(button) {
+  appearance: none;
+  background: orange;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
